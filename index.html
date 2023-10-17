@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: black;
+      }
+    </style>
+    <script src="js/phaser.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <button id="bluetooth" style="position: absolute; padding: 10">
+      Connect
+    </button>
+    <button id="takeoff" style="position: absolute; top: 40px">Takeoff</button>
+    <button id="land" style="position: absolute; top: 80px">Land</button>
+    <button id="up" style="position: absolute; top: 120px">Up</button>
+    <button id="down" style="position: absolute; top: 160px">Down</button>
+    <script type="text/javascript" src="js/physio.js"></script>
+    <h1
+      id="power"
+      style="position: absolute; top: 0; right: 10px; color: white"
+    >
+    </h1>
+    <input id="threshold" style="position: absolute; top: 200px; width: 50px"></input>
+  </body>
+  <script src="js/fili.min.js"></script>
+  <script type="text/javascript" src="js/bci.min.js"></script>
+  <script type="text/javascript" src="js/BCIDevice.build.js"></script>
+  <script type="text/javascript" src="js/nodesocket.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
