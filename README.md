@@ -1,31 +1,38 @@
-# INstructions
-# Install dependencies 
+# Instructions
+
+## Install dependencies 
 
 `yarn`
 
-# Connect Drone 
+## Connect Drone 
 
-# Run Server
+`Turn on drone`
+
+`wait for light to flash yellow`
+
+`connect to drone's ad-hoc wifi network`
+
+## Run Server
 
 `node index.js`
 
-# Load website 
+## Load website 
 
 `localhost:8888`
 
-# Connect Muse headset
+## Connect Muse headset
 
 `press connect button on webpage`
 
 `pair muse device` 
 
 
-# Takeoff drone
+## Takeoff drone
 
-`press take off` 
+`press take off on webpage` 
 
 
-# Change trigger threshold 
+## Change trigger threshold 
 
 `The value in the top right corner is relative beta band power`
 
