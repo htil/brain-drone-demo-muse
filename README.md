@@ -1,5 +1,9 @@
 # Instructions
 
+## Download files
+
+`git clone https://github.com/htil/brain-drone-demo-muse.git`
+
 ## Install dependencies 
 
 `yarn`
